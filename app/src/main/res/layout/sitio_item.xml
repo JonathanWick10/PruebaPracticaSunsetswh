@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/txtNombreSitio"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:textColor="@color/blanco"
+        android:background="@color/grisOscuro"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:text="Jonathan"
+        android:textSize="30sp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dip"
+        android:src="@mipmap/ubicam"
+        />
+
+    <TextView
+        android:id="@+id/txtDescSitio"
+        android:layout_toRightOf="@+id/firstColumn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/grisOscuro"
+        android:maxLines="1"
+        android:padding="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@android:color/white"
+        android:text="Mosquera"/>
+
+    <ImageView
+        android:id="@+id/imgVer"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="77dip"
+        android:src="@mipmap/ojo"
+        />
+
+
+
+</androidx.cardview.widget.CardView>
